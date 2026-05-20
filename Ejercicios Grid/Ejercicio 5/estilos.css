@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.layout-principal {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    gap: 15px;
+    grid-template-areas: "header  header"
+                         "sidebar contenido"
+                         "footer  footer";
+    
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: 80px 1fr 40px;
+}
+
+.barra-superior { grid-area: header; }
+.menu-lateral   { grid-area: sidebar; }
+.seccion-contenido { grid-area: contenido; }
+.pie-pagina     { grid-area: footer; }
+.barra-superior {
+    background-color: #15ff00;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.acciones {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-lateral {
+    background-color: #003a97;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.menu-lateral ul {
+    list-style: none;
+}
+
+.menu-lateral li {
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #94a3b8;
+    cursor: pointer;
+}
+
+.menu-lateral li.activo {
+    background-color: #15ff00;
+    color: white;
+    font-weight: bold;
+}
+
+.seccion-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: #003a97;
+    border-radius: 15px;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.encabezado {
+    color: #94a3b8;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.valor {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.barra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+}
+
+.azul .valor    { color: #60a5fa; }
+.azul .barra    { background-color: #60a5fa; }
+.morada .valor  { color: #a78bfa; }
+.morada .barra  { background-color: #a78bfa; }
+.naranja .valor { color: #fb923c; }
+.naranja .barra { background-color: #fb923c; }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #475569;
+}

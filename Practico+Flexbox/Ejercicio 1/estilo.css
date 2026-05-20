@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  padding: 20px;
+  background: #ff0000;
+}
+
+.item {
+  background: rgb(0, 140, 255);
+}

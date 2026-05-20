@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  height: 300px;
+}
+
+.sidebar {
+  width: 200px; 
+  background: rgb(132, 0, 255);
+}
+
+.contenido {
+  flex: 1; 
+  background: rgb(0, 238, 255);
+}

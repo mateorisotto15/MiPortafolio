@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.encabezado{
+    display:flex;
+    align-items:center;
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+
+.izquierda{
+    display:flex;
+    flex:1;
+}
+
+.izquierda input{
+    flex:1;
+    padding:10px;
+}
+
+.centro{
+    display:flex;
+    justify-content:center;
+    flex:1;
+}
+
+.logo{
+    width:80px;
+}
+
+.derecha{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:10px;
+    flex:1;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+}

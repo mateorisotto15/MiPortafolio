@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  color: orange;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.links {
+  display: flex;
+}
+
+.col {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+}

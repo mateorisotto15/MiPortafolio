@@ -1,0 +1,25 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 120px 120px 120px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.item-1 { background-color: #ef4444; }
+.item-2 { background-color: #3b82f6; }
+.item-3 { background-color: #10b981; }
+.item-4 { background-color: #f59e0b; }
+.item-5 { background-color: #8b5cf6; }
+.item-6 { background-color: #ec4899; }
+.item-7 { background-color: #06b6d4; }
+.item-8 { background-color: #f97316; }
+.item-9 { background-color: #64748b; }

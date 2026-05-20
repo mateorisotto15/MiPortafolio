@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #c40000;
+}
+
+.logo img {
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.accion {
+  display: flex;
+  justify-content: flex-end;
+}

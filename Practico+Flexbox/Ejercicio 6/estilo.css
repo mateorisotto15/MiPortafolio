@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: flex-end; 
+  gap: 10px;
+  height: 300px;
+  background: lightgray;
+}
+
+.item {
+  width: 60px;
+  background: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.uno { height: 60px; 
+       background-color: red;
+}
+.dos { height: 150px;
+       background-color: green;
+}
+.tres { height: 100px; 
+        background-color: rgb(255, 230, 0);
+}
+.cuatro { height: 200px;
+        background-color: rgb(76, 0, 255);
+}
