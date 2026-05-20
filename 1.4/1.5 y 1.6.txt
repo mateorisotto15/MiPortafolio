@@ -1,0 +1,8 @@
+1.5:1)es mas mejor a la hora de organizar la estructura
+2)es mejor para la optimización de la pagina
+
+ejercicio 1.6:errores:falta <html lang="es"> 
+              el <head> no está cerrada 
+              el <Header> tiene mayúscula 
+              el primer párrafo no tiene cierre falta el <p> 
+              el body nunca se cerró
